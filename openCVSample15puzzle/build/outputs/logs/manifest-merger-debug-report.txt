@@ -1,0 +1,65 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/kennethrstclairiii/AndroidStudioProjects/opencv-instructions/openCVSample15puzzle/src/main/AndroidManifest.xml:1:1-34:12
+	package
+		ADDED from /Users/kennethrstclairiii/AndroidStudioProjects/opencv-instructions/openCVSample15puzzle/src/main/AndroidManifest.xml:2:5-42
+		INJECTED from /Users/kennethrstclairiii/AndroidStudioProjects/opencv-instructions/openCVSample15puzzle/src/main/AndroidManifest.xml
+		INJECTED from /Users/kennethrstclairiii/AndroidStudioProjects/opencv-instructions/openCVSample15puzzle/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/kennethrstclairiii/AndroidStudioProjects/opencv-instructions/openCVSample15puzzle/src/main/AndroidManifest.xml:4:5-30
+		INJECTED from /Users/kennethrstclairiii/AndroidStudioProjects/opencv-instructions/openCVSample15puzzle/src/main/AndroidManifest.xml
+		INJECTED from /Users/kennethrstclairiii/AndroidStudioProjects/opencv-instructions/openCVSample15puzzle/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/kennethrstclairiii/AndroidStudioProjects/opencv-instructions/openCVSample15puzzle/src/main/AndroidManifest.xml:3:5-28
+		INJECTED from /Users/kennethrstclairiii/AndroidStudioProjects/opencv-instructions/openCVSample15puzzle/src/main/AndroidManifest.xml
+		INJECTED from /Users/kennethrstclairiii/AndroidStudioProjects/opencv-instructions/openCVSample15puzzle/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/kennethrstclairiii/AndroidStudioProjects/opencv-instructions/openCVSample15puzzle/src/main/AndroidManifest.xml:1:11-69
+uses-sdk
+ADDED from /Users/kennethrstclairiii/AndroidStudioProjects/opencv-instructions/openCVSample15puzzle/src/main/AndroidManifest.xml:6:5-42
+MERGED from [opencv-instructions:openCVLibrary330:unspecified] /Users/kennethrstclairiii/AndroidStudioProjects/opencv-instructions/openCVLibrary330/build/intermediates/bundles/default/AndroidManifest.xml:7:5-9:41
+MERGED from [com.androidplot:androidplot-core:1.5.1] /Users/kennethrstclairiii/.android/build-cache/86d694c559088fddd11cf94ceb358a370938594c/output/AndroidManifest.xml:26:5-28:41
+MERGED from [com.halfhp.fig:figlib:1.0.3] /Users/kennethrstclairiii/.android/build-cache/66c73df779ba041dff07f62aec09ae98f6301124/output/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		INJECTED from /Users/kennethrstclairiii/AndroidStudioProjects/opencv-instructions/openCVSample15puzzle/src/main/AndroidManifest.xml
+		INJECTED from /Users/kennethrstclairiii/AndroidStudioProjects/opencv-instructions/openCVSample15puzzle/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/kennethrstclairiii/AndroidStudioProjects/opencv-instructions/openCVSample15puzzle/src/main/AndroidManifest.xml:6:15-40
+		INJECTED from /Users/kennethrstclairiii/AndroidStudioProjects/opencv-instructions/openCVSample15puzzle/src/main/AndroidManifest.xml
+		INJECTED from /Users/kennethrstclairiii/AndroidStudioProjects/opencv-instructions/openCVSample15puzzle/src/main/AndroidManifest.xml
+application
+ADDED from /Users/kennethrstclairiii/AndroidStudioProjects/opencv-instructions/openCVSample15puzzle/src/main/AndroidManifest.xml:8:5-25:19
+	android:label
+		ADDED from /Users/kennethrstclairiii/AndroidStudioProjects/opencv-instructions/openCVSample15puzzle/src/main/AndroidManifest.xml:10:9-41
+	android:icon
+		ADDED from /Users/kennethrstclairiii/AndroidStudioProjects/opencv-instructions/openCVSample15puzzle/src/main/AndroidManifest.xml:9:9-38
+	android:theme
+		ADDED from /Users/kennethrstclairiii/AndroidStudioProjects/opencv-instructions/openCVSample15puzzle/src/main/AndroidManifest.xml:11:9-67
+uses-permission#android.permission.CAMERA
+ADDED from /Users/kennethrstclairiii/AndroidStudioProjects/opencv-instructions/openCVSample15puzzle/src/main/AndroidManifest.xml:26:5-64
+	android:name
+		ADDED from /Users/kennethrstclairiii/AndroidStudioProjects/opencv-instructions/openCVSample15puzzle/src/main/AndroidManifest.xml:26:22-62
+uses-feature#android.hardware.camera
+ADDED from /Users/kennethrstclairiii/AndroidStudioProjects/opencv-instructions/openCVSample15puzzle/src/main/AndroidManifest.xml:28:5-83
+	android:required
+		ADDED from /Users/kennethrstclairiii/AndroidStudioProjects/opencv-instructions/openCVSample15puzzle/src/main/AndroidManifest.xml:28:58-81
+	android:name
+		ADDED from /Users/kennethrstclairiii/AndroidStudioProjects/opencv-instructions/openCVSample15puzzle/src/main/AndroidManifest.xml:28:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /Users/kennethrstclairiii/AndroidStudioProjects/opencv-instructions/openCVSample15puzzle/src/main/AndroidManifest.xml:29:5-93
+	android:required
+		ADDED from /Users/kennethrstclairiii/AndroidStudioProjects/opencv-instructions/openCVSample15puzzle/src/main/AndroidManifest.xml:29:68-91
+	android:name
+		ADDED from /Users/kennethrstclairiii/AndroidStudioProjects/opencv-instructions/openCVSample15puzzle/src/main/AndroidManifest.xml:29:19-67
+uses-feature#android.hardware.camera.front
+ADDED from /Users/kennethrstclairiii/AndroidStudioProjects/opencv-instructions/openCVSample15puzzle/src/main/AndroidManifest.xml:30:5-89
+	android:required
+		ADDED from /Users/kennethrstclairiii/AndroidStudioProjects/opencv-instructions/openCVSample15puzzle/src/main/AndroidManifest.xml:30:64-87
+	android:name
+		ADDED from /Users/kennethrstclairiii/AndroidStudioProjects/opencv-instructions/openCVSample15puzzle/src/main/AndroidManifest.xml:30:19-63
+uses-feature#android.hardware.camera.front.autofocus
+ADDED from /Users/kennethrstclairiii/AndroidStudioProjects/opencv-instructions/openCVSample15puzzle/src/main/AndroidManifest.xml:31:5-99
+	android:required
+		ADDED from /Users/kennethrstclairiii/AndroidStudioProjects/opencv-instructions/openCVSample15puzzle/src/main/AndroidManifest.xml:31:74-97
+	android:name
+		ADDED from /Users/kennethrstclairiii/AndroidStudioProjects/opencv-instructions/openCVSample15puzzle/src/main/AndroidManifest.xml:31:19-73

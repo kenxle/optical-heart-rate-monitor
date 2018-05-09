@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:opencv="http://schemas.android.com/apk/res-auto"
+    xmlns:ap="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_gravity="bottom"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/TopLL">
+
+    <com.hcii.kennethrstclairiii.heart_rate.Tutorial3View
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:visibility="gone"
+        android:id="@+id/HelloOpenCvView"
+        opencv:camera_id="-1" />
+        <!--opencv:show_fps="true"-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAppearance="?android:attr/textAppearanceSmall"-->
+        <!--android:text="No finger detected"-->
+        <!--android:id="@+id/fingered"-->
+        <!--android:layout_below="@+id/HelloOpenCvView"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:background="#8647ff"-->
+        <!--android:textColor="#fffbd0" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAppearance="?android:attr/textAppearanceSmall"-->
+        <!--android:text="Count: 0"-->
+        <!--android:id="@+id/PulseCount"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:background="#8647ff"-->
+        <!--android:textColor="#fffbd0" />-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Place your finger over the camera to get your heart rate"
+        android:id="@+id/HeartRate"
+        android:layout_alignParentStart="true"
+        android:background="#8647ff"
+        android:textColor="#fffbd0" />
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/stepsText"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Steps: "/>-->
+
+    <com.androidplot.xy.XYPlot
+        style="@style/APDefacto.Dark"
+        android:id="@+id/aprHistoryPlot"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="10px"
+        android:layout_marginLeft="10px"
+        android:layout_marginRight="10px"
+        androidPlot.backgroundPaint.color="#000000"
+        androidPlot.borderPaint.color="#000000"
+        androidplot.renderMode="use_background_thread"
+        ap:title="History"
+        ap:domainTitle="Domain"
+        ap:rangeTitle="Range"/>
+
+
+</LinearLayout>
